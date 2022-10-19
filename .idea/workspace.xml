@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Add tests for tasks">
-      <change afterPath="$PROJECT_DIR$/src/Main/day4/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day4/Task2.java" afterDir="false" />
+    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="2 tasks for Day4">
+      <change afterPath="$PROJECT_DIR$/src/Main/day4/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day4/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/day4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/day4/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.day4.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day4.Task3" />
+      <module name="MyJavaMarathon2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.day4.Task1" />
       <module name="MyJavaMarathon2022" />
@@ -89,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day3.Task3" />
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day4.Task4" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day3.*" />
+          <option name="PATTERN" value="Main.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,33 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests in MyJavaMarathon2022" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.day3.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="Tests.day3.Day3Task3Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day3Task3Test.ShouldWorkProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyJavaMarathon2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.day3" />
-      <option name="MAIN_CLASS_NAME" value="Tests.day3.Day3Task3Test" />
-      <option name="METHOD_NAME" value="ShouldWorkProperly" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main.day4.Task2" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Main.day4.Task3" />
+        <item itemvalue="JUnit.Tests in MyJavaMarathon2022" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="JUnit.Day3Task3Test.ShouldWorkProperly" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="JUnit.Day3Task3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666169732002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 tasks for Day4">
+      <created>1666187550687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187550687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +196,8 @@
     <MESSAGE value="All tsk day 1" />
     <MESSAGE value="All tsk day 2" />
     <MESSAGE value="Add tests for tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests for tasks" />
+    <MESSAGE value="2 tasks for Day4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 tasks for Day4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Tests_in_MyJavaMarathon2022.ic" NAME="Tests in MyJavaMarathon2022 Coverage Results" MODIFIED="1666183033373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,4 +1,4 @@
-package Day2;
+package Main.Day2;
 /*
 1. Реализовать программу, которая принимает на вход через консоль с помощью класса Scanner,
 число, соответствующее количеству этажей в здании. Используя условный оператор if,
@@ -13,13 +13,13 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите количество этажей в здании:");
+        //System.out.println("Введите количество этажей в здании:");
         int count = scan.nextInt();
-        if (count > 1 && count <= 4){
+        if (count >= 1 && count <= 4){
             System.out.println("Малоэтажный дом");
         } else if (count>4 && count<9) {
             System.out.println("Среднеэтажный дом");
-        } else if (count==9) {
+        } else if (count>=9) {
             System.out.println("Многоэтажный дом");
         }else {
             System.out.println("Ошибка ввода");

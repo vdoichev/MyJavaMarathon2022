@@ -1,4 +1,4 @@
-package Day1;
+package Main.Day1;
 
 /*
 2. Повторить задание 1, но используя цикл for.

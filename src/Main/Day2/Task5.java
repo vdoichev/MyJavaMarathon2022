@@ -1,4 +1,4 @@
-package Day2;
+package Main.Day2;
 /*
 Школьная задача сына)))
  */

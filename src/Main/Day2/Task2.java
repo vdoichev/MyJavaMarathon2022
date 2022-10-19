@@ -1,4 +1,4 @@
-package Day2;
+package Main.Day2;
 /*
 2. Есть два числа, которые задаются пользователем через консоль
 (назовем эти два числа a и b). Используя цикл for,вывести все числа из диапазона между a и b,
@@ -13,13 +13,13 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите первое число:");
+        //System.out.println("Введите первое число:");
         int a = scan.nextInt();
-        System.out.println("Введите второе число:");
+        //System.out.println("Введите второе число:");
         int b = scan.nextInt();
         for (int i = a; i <= b; i++) {
             if (i % 5 == 0 && i % 10 != 0) {
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
     }

@@ -6,7 +6,6 @@
       <change afterPath="$PROJECT_DIR$/src/Main/day13/MessageDatabase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main/day13/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main/day13/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/day13/Day13UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day13/Day13UserTest.java" afterDir="false" />
     </list>

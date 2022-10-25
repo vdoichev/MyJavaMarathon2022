@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="All tasks for Day 12">
-      <change afterPath="$PROJECT_DIR$/src/Main/day13/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day13/MessageDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day13/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day13/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/day13/Day13UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day13/Day13UserTest.java" afterDir="false" />
+    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="All tasks for Day 13">
+      <change afterPath="$PROJECT_DIR$/day14task11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day14/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day14/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day14/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day14/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/resources/D14T1_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/resources/D14T1_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/resources/D14T2_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/resources/D14T2_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/resources/D16T1_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/day14/Day14Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day14/Day14Task1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/day14/Day14Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day14/Day14Task2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,13 +79,26 @@
       <recent name="Main.day7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.day13 in MyJavaMarathon2022">
+  <component name="RunManager" selected="Application.Task3">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day14.Task1" />
+      <module name="MyJavaMarathon2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day12.Task2" />
+      <option name="MAIN_CLASS_NAME" value="Main.day14.Task2" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day12.*" />
+          <option name="PATTERN" value="Main.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day13.Test" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day14.Task3" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day13.*" />
+          <option name="PATTERN" value="Main.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,56 +119,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.day13.*" />
+          <option name="PATTERN" value="Tests.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="Tests.day13.Day13UserTest" />
+      <option name="PACKAGE_NAME" value="Tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day14.Day14Task1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests in MyJavaMarathon2022" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="Tests.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.day13 in MyJavaMarathon2022" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyJavaMarathon2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.day13" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day14.Day14Task2Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.day13 in MyJavaMarathon2022" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.Day13UserTest" />
-        <item itemvalue="JUnit.Tests in MyJavaMarathon2022" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="JUnit.Day14Task2Test" />
         <item itemvalue="Application.Task2" />
+        <item itemvalue="JUnit.Day14Task1Test" />
+        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666460995704</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="All tasks for Day 13">
+      <created>1666629375693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666629375693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,29 +287,14 @@
     <MESSAGE value="All tasks for Day 9" />
     <MESSAGE value="All tasks for Day 11" />
     <MESSAGE value="All tasks for Day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="All tasks for Day 12" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tests/day13/Day13MessageDatabaseTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="All tasks for Day 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tasks for Day 13" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Day8AirplaneTest.ic" NAME="Day8AirplaneTest Coverage Results" MODIFIED="1666288881567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.day8.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Tests_in_MyJavaMarathon2022.ic" NAME="Tests in MyJavaMarathon2022 Coverage Results" MODIFIED="1666460828842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Tests_in_MyJavaMarathon2022.ic" NAME="Tests in MyJavaMarathon2022 Coverage Results" MODIFIED="1666630216411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Tests_day13_in_MyJavaMarathon2022.ic" NAME="Tests.day13 in MyJavaMarathon2022 Coverage Results" MODIFIED="1666604863632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

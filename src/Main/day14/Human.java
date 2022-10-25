@@ -2,18 +2,18 @@ package Main.day14;
 
 public class Human {
     private final String name;
-    private final int age;
+    private final int year;
 
-    public Human(String name, int age) {
+    public Human(String name, int year) {
         this.name = name;
-        this.age = age;
+        this.year = year;
     }
 
     @Override
     public String toString() {
-        return "Human{" +
+        return "{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", year=" + year +
                 '}';
     }
 }

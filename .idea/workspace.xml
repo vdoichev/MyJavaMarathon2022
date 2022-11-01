@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Task2 for Day 18">
+      <change afterPath="$PROJECT_DIR$/src/Main/day10/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/day10/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/day18/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/day18/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +69,13 @@
       <recent name="Main.day7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day18Task2Test">
-    <configuration name="Main.day17.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day17.Task2" />
+  <component name="RunManager" selected="Application.Main.day10.Task1">
+    <configuration name="Main.day10.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day10.Task1" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day17.*" />
+          <option name="PATTERN" value="Main.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main.day10.Task1" />
         <item itemvalue="JUnit.Day18Task2Test" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="JUnit.Day18Task1Test" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Main.day17.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667246328346</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Task2 for Day 18">
+      <created>1667291330040</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667291330040</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

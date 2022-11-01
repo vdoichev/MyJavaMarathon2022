@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Task2 for Day 17">
-      <change afterPath="$PROJECT_DIR$/src/Main/day18/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day18/Task2.java" afterDir="false" />
+    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Task2 for Day 18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/day18/Day18Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day18/Day18Task1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/day18/Day18Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/day18/Day18Task2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/day18/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/day18/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <recent name="Main.day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="JUnit.Day18Task2Test">
     <configuration name="Main.day17.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.day17.Task2" />
       <module name="MyJavaMarathon2022" />
@@ -111,21 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day17Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyJavaMarathon2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="Tests.day17.Day17Task2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day18Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
@@ -141,13 +123,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day18Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJavaMarathon2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.day18" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day18.Day18Task2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day18Task2Test" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="JUnit.Day18Task1Test" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Main.day17.Task2" />
-        <item itemvalue="JUnit.Day17Task2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666965404189</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Task2 for Day 18">
+      <created>1667246328346</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667246328346</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +346,8 @@
     <MESSAGE value="All tasks for Day 16" />
     <MESSAGE value="Task1 for Day 17" />
     <MESSAGE value="Task2 for Day 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2 for Day 17" />
+    <MESSAGE value="Task2 for Day 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2 for Day 18" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Day8AirplaneTest.ic" NAME="Day8AirplaneTest Coverage Results" MODIFIED="1666288881567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

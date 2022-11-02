@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Task2 for Day 18">
-      <change afterPath="$PROJECT_DIR$/src/Main/day10/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/day10/Task1.java" afterDir="false" />
+    <list default="true" id="2874fccc-b7be-4ac4-9439-54dfc8f4a4fb" name="Changes" comment="Game MarineBattle">
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/MarineBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/MarineCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Ships/DoubleDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Ships/FourDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Ships/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Ships/SingleDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/MarineBattle/Ships/ThreeDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,19 +71,20 @@
       <recent name="Tests.day4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Main.MarineBattle.Ships" />
+      <recent name="Main.MarineBattle" />
       <recent name="Main.day12.Task5" />
       <recent name="Main.day12.Task4" />
       <recent name="Main.day8" />
-      <recent name="Main.day7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main.day10.Task1">
-    <configuration name="Main.day10.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day10.Task1" />
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.MarineBattle.Game" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day10.*" />
+          <option name="PATTERN" value="Main.MarineBattle.Ships.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.day18.Task1" />
+    <configuration name="Main.day10.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.day10.Task1" />
       <module name="MyJavaMarathon2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.day18.*" />
+          <option name="PATTERN" value="Main.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Main.day10.Task1" />
         <item itemvalue="JUnit.Day18Task2Test" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="JUnit.Day18Task1Test" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667291330040</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Task1 for Day 10">
+      <created>1667303676316</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1667303676316</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +371,9 @@
     <MESSAGE value="Task1 for Day 17" />
     <MESSAGE value="Task2 for Day 17" />
     <MESSAGE value="Task2 for Day 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2 for Day 18" />
+    <MESSAGE value="Task1 for Day 10" />
+    <MESSAGE value="Game MarineBattle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game MarineBattle" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaMarathon2022$Day8AirplaneTest.ic" NAME="Day8AirplaneTest Coverage Results" MODIFIED="1666288881567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

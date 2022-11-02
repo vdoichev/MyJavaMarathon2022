@@ -1,10 +1,10 @@
 package Main.MarineBattle;
 
-public class MarineBoard {
+public class MarineField {
 
     public final MarineCell[][] cells;
 
-    MarineBoard() {
+    MarineField() {
         this.cells = new MarineCell[10][10];
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {

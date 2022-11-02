@@ -11,7 +11,20 @@ public class MarineCell {
         this.y = y;
     }
 
+    @Override
+    public String toString() {
+        return "{ x = " + x + ", y = " + y + " }";
+    }
+
     public Cell getCell() {
         return cell;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
     }
 }

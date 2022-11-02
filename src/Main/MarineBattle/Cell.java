@@ -1,5 +1,8 @@
 package Main.MarineBattle;
 
+/**
+ * Перелік можливих зображень клітинок на полі бою
+ */
 public enum Cell {
     EMPTY("⬜"),
     WHOLE_SHIP("\uD83D\uDEA2"),
@@ -19,4 +22,5 @@ public enum Cell {
     public String getEmoji() {
         return emoji;
     }
+
 }

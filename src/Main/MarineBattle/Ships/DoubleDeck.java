@@ -8,12 +8,10 @@ public class DoubleDeck extends Ship {
     public DoubleDeck() {
         super(2);
     }
-
     @Override
     public String getSizeStr() {
         return "двопалубного";
     }
-
     @Override
     public String getFormat() {
         return "x,y;x,y";

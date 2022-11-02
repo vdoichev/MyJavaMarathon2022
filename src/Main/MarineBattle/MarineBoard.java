@@ -2,7 +2,7 @@ package Main.MarineBattle;
 
 public class MarineBoard {
 
-    private final MarineCell[][] cells;
+    public final MarineCell[][] cells;
 
     MarineBoard() {
         this.cells = new MarineCell[10][10];
@@ -26,5 +26,9 @@ public class MarineBoard {
             System.out.println();
             count++;
         }
+    }
+
+    public MarineCell[][] getCells() {
+        return cells;
     }
 }

@@ -8,12 +8,10 @@ public class ThreeDeck extends Ship {
     public ThreeDeck() {
         super(3);
     }
-
     @Override
     public String getFormat() {
         return "x,y;x,y;x,y";
     }
-
     @Override
     public String getSizeStr() {
         return "трипалубного";

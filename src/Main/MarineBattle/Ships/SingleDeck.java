@@ -1,8 +1,6 @@
 package Main.MarineBattle.Ships;
 
 public class SingleDeck extends Ship {
-
-
     public SingleDeck() {
         super(1);
     }
